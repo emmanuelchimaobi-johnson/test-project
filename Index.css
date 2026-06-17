@@ -3,6 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
-p{
+
+.head1{
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    gap: 10px;
+    position: relative;
+    z-index: 10;
+}
+.nav-bar{
+text-decoration: none;
+}
+.nav-link{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    text-align: center;
     
+}
+.ancor{
+    text-decoration: none;
+    color: white;
+}
+.sec1{
+    width: 90%;
+    height:auto;
+    
+    margin: auto;
+    padding: 10px;
+    
+
+}
+.div1{
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    
+    
+    
+
+}
+
+button{
+    padding: 8px;
+    margin: 6px;
+    border-radius: 4px;
+    border-color: gray;
 }
